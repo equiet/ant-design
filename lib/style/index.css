@@ -63,9 +63,6 @@ b,
 strong {
   font-weight: bolder;
 }
-small {
-  font-size: 80%;
-}
 sub,
 sup {
   position: relative;
@@ -95,10 +92,6 @@ samp {
 }
 pre {
   overflow: auto;
-}
-img {
-  vertical-align: middle;
-  border-style: none;
 }
 svg:not(:root) {
   overflow: hidden;
