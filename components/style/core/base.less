@@ -10,7 +10,7 @@
 // HTML & Body reset
 html,
 body {
-  .square(100%);
+  // .square(100%);
 }
 
 // remove the clear button of a text input control in IE10+
@@ -32,12 +32,12 @@ input::-ms-reveal {
 *,
 *::before,
 *::after {
-  box-sizing: border-box; // 1
+  // box-sizing: border-box; // 1
 }
 
 html {
-  font-family: sans-serif; // 2
-  line-height: 1.15; // 3
+  // font-family: sans-serif; // 2
+  // line-height: 1.15; // 3
   -webkit-text-size-adjust: 100%; // 4
   -ms-text-size-adjust: 100%; // 4
   -ms-overflow-style: scrollbar; // 5
@@ -70,14 +70,14 @@ section {
 // 2. As a best practice, apply a default `body-background`.
 
 body {
-  margin: 0; // 1
-  color: @text-color;
-  font-size: @font-size-base;
-  font-family: @font-family;
-  font-variant: @font-variant-base;
-  line-height: @line-height-base;
-  background-color: @body-background; // 2
-  font-feature-settings: 'tnum';
+  // margin: 0; // 1
+  // color: @text-color;
+  // font-size: @font-size-base;
+  // font-family: @font-family;
+  // font-variant: @font-variant-base;
+  // line-height: @line-height-base;
+  // background-color: @body-background; // 2
+  // font-feature-settings: 'tnum';
 }
 
 // Suppress the focus outline on elements that cannot be accessed via keyboard.
@@ -114,10 +114,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 0.5em;
-  color: @heading-color;
-  font-weight: 500;
+  // margin-top: 0;
+  // margin-bottom: 0.5em;
+  // color: @heading-color;
+  // font-weight: 500;
 }
 
 // Reset margins on paragraphs
@@ -125,8 +125,8 @@ h6 {
 // Similarly, the top margin on `<p>`s get reset. However, we also reset the
 // bottom margin to use `em` units instead of `em`.
 p {
-  margin-top: 0;
-  margin-bottom: 1em;
+  // margin-top: 0;
+  // margin-bottom: 1em;
 }
 
 // Abbreviations
@@ -146,7 +146,7 @@ abbr[data-original-title] {
 }
 
 address {
-  margin-bottom: 1em;
+  // margin-bottom: 1em;
   font-style: normal;
   line-height: inherit;
 }
@@ -161,28 +161,28 @@ textarea {
 ol,
 ul,
 dl {
-  margin-top: 0;
-  margin-bottom: 1em;
+  // margin-top: 0;
+  // margin-bottom: 1em;
 }
 
 ol ol,
 ul ul,
 ol ul,
 ul ol {
-  margin-bottom: 0;
+  // margin-bottom: 0;
 }
 
 dt {
-  font-weight: 500;
+  // font-weight: 500;
 }
 
 dd {
-  margin-bottom: 0.5em;
-  margin-left: 0; // Undo browser default
+  // margin-bottom: 0.5em;
+  // margin-left: 0; // Undo browser default
 }
 
 blockquote {
-  margin: 0 0 1em;
+  // margin: 0 0 1em;
 }
 
 dfn {
@@ -223,35 +223,35 @@ sup {
 //
 
 a {
-  color: @link-color;
-  text-decoration: @link-decoration;
-  background-color: transparent; // remove the gray background on active links in IE 10.
-  outline: none;
+  // color: @link-color;
+  // text-decoration: @link-decoration;
+  // background-color: transparent; // remove the gray background on active links in IE 10.
+  // outline: none;
   cursor: pointer;
-  transition: color 0.3s;
-  -webkit-text-decoration-skip: objects; // remove gaps in links underline in iOS 8+ and Safari 8+.
+  // transition: color 0.3s;
+  // -webkit-text-decoration-skip: objects; // remove gaps in links underline in iOS 8+ and Safari 8+.
 
   &:focus {
-    text-decoration: underline;
-    text-decoration-skip-ink: auto;
+    // text-decoration: underline;
+    // text-decoration-skip-ink: auto;
   }
 
   &:hover {
-    color: @link-hover-color;
+    // color: @link-hover-color;
   }
 
   &:active {
-    color: @link-active-color;
+    // color: @link-active-color;
   }
 
   &:active,
   &:hover {
-    text-decoration: @link-hover-decoration;
-    outline: 0;
+    // text-decoration: @link-hover-decoration;
+    // outline: 0;
   }
 
   &[disabled] {
-    color: @disabled-color;
+    // color: @disabled-color;
     cursor: not-allowed;
     pointer-events: none;
   }
@@ -271,9 +271,9 @@ samp {
 
 pre {
   // remove browser default top margin
-  margin-top: 0;
+  // margin-top: 0;
   // Reset browser default of `1em` to use `em`s
-  margin-bottom: 1em;
+  // margin-bottom: 1em;
   // Don't allow content to break outside
   overflow: auto;
 }
@@ -283,7 +283,7 @@ pre {
 //
 figure {
   // Apply a consistent margin strategy (matches our type styles).
-  margin: 0 0 1em;
+  // margin: 0 0 1em;
 }
 
 //
@@ -330,9 +330,9 @@ table {
 }
 
 caption {
-  padding-top: 0.75em;
-  padding-bottom: 0.3em;
-  color: @text-color-secondary;
+  // padding-top: 0.75em;
+  // padding-bottom: 0.3em;
+  // color: @text-color-secondary;
   text-align: left;
   caption-side: bottom;
 }
@@ -340,7 +340,7 @@ caption {
 th {
   // Matches default `<td>` alignment by inheriting from the `<body>`, or the
   // closest parent with a set `text-align`.
-  text-align: inherit;
+  // text-align: inherit;
 }
 
 //
